@@ -62,3 +62,8 @@ else:
 Write Output: 
 Dictinction
 '''
+
+
+# x ="hello"
+#Y ="world"
+#print(x and Y)
