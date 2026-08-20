@@ -50,5 +50,5 @@ elif n == 6:
 elif n == 7:
     print("Saturday")
 else:
-    print("invalid day number")
+    print('invalid day number')
     
