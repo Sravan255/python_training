@@ -37,17 +37,17 @@ n = int(input("Enter a number: "))
 
 if n == 1:
     print("Sunday")
-elif n == 2:
+case 1
     print("Monday")
-elif n == 3:
+case2
     print("Tuesday")
-elif n == 4:
+case 3
     print("Wednesday")
-elif n == 5:
+case 4
     print("Thursday")
-elif n == 6:
+case 5
     print("Friday")
-elif n == 7:
+case 6
     print("Saturday")
 else:
     print('invalid day number')
