@@ -39,7 +39,7 @@ if n == 1:
     print("Sunday")
 case 1
     print("Monday")
-case2
+case 2
     print("Tuesday")
 case 3
     print("Wednesday")
