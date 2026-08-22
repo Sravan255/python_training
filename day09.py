@@ -3,39 +3,57 @@
 
 # list = [4, 3, 2, 5, 6]
 #print elements in list with for each loop
+list = [4,3,2,5,6,]
+print(list)
+print()
+print()
+
 #print elements in list with index based for loop
+for x in range(len(list)):
+    print(list[x])
 #skip printing even numbers in list
+list = [4,3,2,5,6,]
+for x in list:
+    if x % 2 ==0:
+        continue
+        print(x, end=' ')
+        print()
+        print()
+        
 #skip printing odd numbers in list
-#when number 2 comes stop printing  
-#when first odd number comes stop printing
-#print numbers from 1 to 10, when all numbers are printed, print 'All numbers printed'
-#print numbers from 1 to 10, skipping even numbers, when all numbers are printed, print 'All numbers printed'
-#print numbers from 10 to 1, when 5 comes stop printing, when all numbers are print, print 'All numbers printed'
-
-
-l= [4,3,2,5,6]
-for x in l:
+for x in list:
+    if x % 2==1:
+        continue
+        print(x, end=' ')
+#when number 2 comes stop printing 
+for x in list:
+    if x ==2:
+        break
     print(x)
-    for x in range(len(l)):
-        print(l)
-        
-#skip printing even numbers in list
-for i in range(10):
-    if i % 2 == 0:
+ 
+#when first odd number comes stop printing
+for x in list:
+    if x % 2==1:
+        break
+        print(x)
+#print numbers from 1 to 10, when all numbers are printed, print 'All numbers printed'
+for x in range(1,11):
+    print(x)
+else:
+    print('all numbers are printed')
+
+#print numbers from 1 to 10, skipping even numbers, when all numbers are printed, print 'All numbers printed'
+for x in range(1,11):
+    if x % 2 ==0:
         continue
-    print(i)
-#skip printing odd numbers in list    
- for i in range(10):
-    if i % 3 == 0:
-        continue
-    print(i)
-#when number 2 comes stop printing  
-for i in rangea(1 ,5):
-    if i % 3==0:
-        print(i)
-#when first odd number comes stop printing        
-for i in rangea(1 ,4):
-    if i % 4==0:
-        print(i)
-        
-    
+    print(x)
+else:
+    print('All numbers printed')
+
+#print numbers from 10 to 1, when 5 comes stop printing, when all numbers are print, print 'All numbers printed'
+for x in range(10, 0,-1):
+    if x ==5:
+        break
+    print(x)
+else:
+    print('All numbers printed')
