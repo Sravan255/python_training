@@ -33,22 +33,19 @@ def is_leap(n):
 
 # take n, if n from 1 to 7 print dayname else print invalid day number
 #e.g. 1 - Sunday, 2 - Monday, 3 - Tuesday
-n = int(input("Enter a number: "))
+n = int(input("Enter a number "))
+match n:
+    case 1: print('sunday')
+    case 2: print('monday')
+    case 3: print('tuesday')
+    case 4: print('wednesday')
+    case 5: print('thursday')
+    case 6: print('friday')
+    case 7: print('saturday')
+    case_:print('invalid day number')
+    
+    
+    
 
-if n == 1:
-    print("Sunday")
-case 1
-    print("Monday")
-case 2
-    print("Tuesday")
-case 3
-    print("Wednesday")
-case 4
-    print("Thursday")
-case 5
-    print("Friday")
-case 6
-    print("Saturday")
-else:
-    print('invalid day number')
+
     
