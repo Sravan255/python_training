@@ -125,6 +125,7 @@ if n==sum:
 else:
     print('not a armostrong number')
 print()
+print()
 
             
     
