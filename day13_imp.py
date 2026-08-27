@@ -124,7 +124,10 @@ if n==sum:
     print('armstrong number')
 else:
     print('not a armostrong number')
-        
+print()
+
+            
+    
         
     
 
