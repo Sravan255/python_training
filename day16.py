@@ -86,3 +86,4 @@ print(arr_sum)
 
 arr_sum = lambda arr: reduce(lambda x, y: x + y, arr)
 print(arr_sum(arr))
+# 
