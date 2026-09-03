@@ -55,7 +55,7 @@ while n<=500:
         print(n, end='')
         n+=1
         print()
-        count_digit
+        #count_digit   ################      
         n=int(input('enter the number of count digit:  '))
         count=0
 while n > 0:
