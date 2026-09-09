@@ -1,7 +1,7 @@
 #Compile time errors
-a = (3 4 5)    
-  print('hi') 
-a = [1,2      
+a = (3,4,5)    
+print('hi') 
+a = [1,2    
 deg f1()    
 
 #Run time errors
@@ -128,4 +128,3 @@ try:
     raise RakeshNotFound 
 except RakeshNotFound:
     print('2')
-
